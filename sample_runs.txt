@@ -1,0 +1,47 @@
+SAMPLE RUNS — illustrative expected output
+
+1. ARRAY STACK: LIFO AND OVERFLOW
+Choose: Array Stack
+Push 10
+Push 20
+Push 30
+Display:
+Stack (bottom to top): ['10', '20', '30']
+Push 40
+Error: Stack overflow
+
+2. ARRAY STACK: UNDERFLOW
+Choose: Array Stack
+Pop on an empty stack
+Error: Stack underflow
+
+3. CIRCULAR ARRAY QUEUE: FIFO AND OVERFLOW
+Choose: Circular Array Queue
+Enqueue A
+Enqueue B
+Enqueue C
+Display:
+Queue (front to rear): ['A', 'B', 'C']
+Enqueue D
+Error: Queue overflow
+
+4. ARRAY QUEUE: UNDERFLOW
+Choose: Circular Array Queue
+Dequeue on an empty queue
+Error: Queue underflow
+
+5. PARENTHESES BALANCE CHECKER
+'([]{})': Balanced
+'([)]': Not balanced
+'((())': Not balanced
+'{a + [b * (c + d)]}': Balanced
+
+6. PRINT QUEUE SIMULATION
+Enqueue JOB-101 (3 pages)
+Enqueue JOB-102 (5 pages)
+Enqueue JOB-103 (2 pages)
+Printing JOB-101 - 3 pages
+Printing JOB-102 - 5 pages
+Printing JOB-103 - 2 pages
+
+Note: These are sample/illustrative runs. Run the program on your computer to confirm output.
